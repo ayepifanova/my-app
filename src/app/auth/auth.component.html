@@ -1,0 +1,13 @@
+
+    <main>
+        <div class="login-page">
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="username" #username/>  
+                    <input type="text" placeholder="password" #password/> 
+                    <button (click)="getInfo(username.value, password.value)">Log In </button>  
+                </form>
+            </div> 
+        </div>
+    </main>
+<router-outlet></router-outlet>

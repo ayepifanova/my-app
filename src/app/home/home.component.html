@@ -1,0 +1,20 @@
+
+<body>
+
+<section>
+  <nav>
+    <p class="red green" >Welcome back, {{user.name}}!</p>
+    <ul>
+      <li><button (click)="goToRoute('chat')">chat</button></li>
+      <li><button (click)="goToRoute('calc')">bMI</button></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>My Results</h1>
+    <p>I have lost 100 Lbs in 2 days!</p>
+    
+  </article>
+</section>
+</body>
+<router-outlet></router-outlet>
